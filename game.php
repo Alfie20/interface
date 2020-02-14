@@ -7,12 +7,12 @@
 		
 		<div>
 			<?php 
-			include 'Shootinterfacee.php';
+			include 'Shootinterface.php';
 			include 'PushButtonInterface';
 
 
 
-			Interface combine extends Shootinterfacee,PushButtonInterface
+			Interface combine extends ShootInterface,PushButtonInterface
 			{
 				public function shootpush();
 			}
